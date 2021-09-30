@@ -13,3 +13,4 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+gem "standard", "~> 1.3", group: [:development, :test]
