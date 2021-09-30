@@ -5,14 +5,14 @@ require "flagged/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = "flagged"
-  spec.version     = Flagged::VERSION
-  spec.authors     = ["Steve Polito"]
-  spec.email       = ["stevepolito@hey.com"]
-  spec.homepage    = "https://github.com/stevepolitodesign/flagged"
-  spec.summary     = "Moderate records in Rails"
+  spec.name = "flagged"
+  spec.version = Flagged::VERSION
+  spec.authors = ["Steve Polito"]
+  spec.email = ["stevepolito@hey.com"]
+  spec.homepage = "https://github.com/stevepolitodesign/flagged"
+  spec.summary = "Moderate records in Rails"
   spec.description = "Moderate records in Rails"
-  spec.license     = "MIT"
+  spec.license = "MIT"
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
